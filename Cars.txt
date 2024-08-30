@@ -1,0 +1,14 @@
+Cars
+
+id - INT - NOTNULL, UNIQUE, AUTOINCREMENT - PRIMARY_KEY
+marca -	VARCHAR(50)
+modello - VARCHAR(50)
+anno - YEAR
+chilometraggio - INT
+tipo_carburante	- VARCHAR(20)
+prezzo - DECIMAL(10, 2)
+condizioni - VARCHAR(20) - NULL
+numero_proprietari - INT - NULL
+colore - VARCHAR(20) - NULL
+tipo_cambio - VARCHAR(20) - NULL
+targa - VARCHAR(10)
